@@ -23,6 +23,7 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
+    background: #151515;
   }
 
   body, input, button {
@@ -109,7 +110,6 @@ img {
   background-position: center;
   background-image: url(https://static-mh.content.disney.io/starwars/assets/navigation/navigation_stars-c6452e016c73.jpg);
   background-size: cover;
-  /* background: linear-gradient(135deg, #282727, #3a3a3a); */
   padding: 30px;
   display: grid;
   grid-template-columns: 1fr auto;
@@ -162,7 +162,6 @@ img {
 
 .sidenav {
   grid-area: sidenav;
-  /* background: #fafbfc; */
   background-position: left center;
   background-size: 100% auto;
   background-image: url(https://static-mh.content.disney.io/starwars/assets/background/bg_starsL-fd4661a3ccea.jpg);
@@ -174,7 +173,7 @@ img {
   min-width: 60px;
   max-width: 140px;
   margin: 0 auto 30px auto;
-  background: white;
+  background: #999;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
@@ -188,7 +187,7 @@ img {
 }
 
 .sidenav li a:hover {
-  background: #4b86d3;
+  background: white;
 }
 
 @keyframes seta {

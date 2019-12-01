@@ -48,16 +48,19 @@ const setCustomAttr = (endPoint, obj, findObj) => {
   obj = { ...obj, image, description };
 
   switch (endPoint) {
-    case "planets":
-      obj = { ...obj, landscape };
+    case "people":
+      break;
+    case "films":
       break;
     case "starships":
       break;
-    case "species":
-      break;
     case "vehicles":
       break;
-    case "films":
+
+    case "species":
+      break;
+    case "planets":
+      obj = { ...obj, landscape };
       break;
     default:
       throw Error(`Sorry, we are out of ${endPoint}.`);

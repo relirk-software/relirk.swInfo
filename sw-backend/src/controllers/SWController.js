@@ -14,17 +14,14 @@ module.exports = {
         result = (await axios.get(req.query.url)).data;
       }
     } else {
-      throw Error(`Sorry, we are out of ${req.query.endPoint}.`);
+      throw Error(`First query error ${req.query.endPoint}.`);
     }
 
     // Busca o arquivo JSON complementar de acordo com o nome do endPoint
-    const jsonData = (
-      await axios.get(
-        `${process.env.FIREBASE_JSON_CUSTOM_URL}${
-          config.storageJSON[req.query.endPoint]
-        }`
-      )
-    ).data;
+    const jsonUrl = `${process.env.FIREBASE_JSON_CUSTOM_URL}${
+      config.storageJSON[req.query.endPoint]
+    }`;
+    const jsonData = (await axios.get(jsonUrl)).data;
 
     // Monta um array com os nomes ou títulos presentes no JSON
     const names = jsonData.map(obj => {

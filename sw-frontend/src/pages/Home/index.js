@@ -4,6 +4,7 @@ import api from "../../services/api";
 
 import Header from "../../components/Header";
 import Sidenav from "../../components/Sidenav";
+import Grid from "../../components/Grid";
 
 export default class Home extends Component {
   state = {
@@ -12,12 +13,25 @@ export default class Home extends Component {
     next: "",
     previous: "",
     template: "",
-    films: []
+    films: [],
+    result: []
   };
 
   async componentDidMount() {
-    const result = await api.getSwData("", "films");
-    console.log(result);
+    const categories = [
+      "planets",
+      "starships",
+      "species",
+      "vehicles",
+      "people",
+      "films"
+    ];
+
+    for (let index = 0; index < categories.length; index++) {
+      const category = categories[index];
+      const result = await api.getSwData("", category);
+      localStorage.setItem(category, JSON.stringify(result));
+    }
   }
 
   render() {
@@ -25,6 +39,10 @@ export default class Home extends Component {
       <div className="estrutura">
         <Header />
         <Sidenav />
+        <Grid
+          category={localStorage.getItem("selectedCategoryName")}
+          items={localStorage.getItem("selectedCategory")}
+        />
       </div>
     );
   }

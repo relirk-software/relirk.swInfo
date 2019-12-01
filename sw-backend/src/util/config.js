@@ -3,7 +3,7 @@ const firebaseMediaToken = {
   starships: "b7093e0f-597f-4c1a-a390-2839390bbdab",
   species: "f5687f40-58b8-404a-84b4-90193316f6d1",
   vehicles: "20ccad09-5358-45fc-b6ca-dd343363203c",
-  people: "db8bd7c1-1f37-4d77-8d95-3b8716f87e0a",
+  people: "642e0653-0a34-449d-8153-83e4c6f5d8e4",
   films: "27633735-4fc5-4bde-9990-d9d59e7cb1f6"
 };
 
