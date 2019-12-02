@@ -20,8 +20,8 @@ export const Content = styled.div`
 
 export const Item = styled.div`
   cursor: pointer;
-  width: 155px;
-  max-width: 170px;
+  width: 210px;
+  max-width: 210px;
   min-height: 208px;
   margin: 5px;
   border-radius: 5px;
@@ -44,7 +44,7 @@ export const Item = styled.div`
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
       border-bottom: solid 1px #e15021;
-      height: 10em;
+      height: 20em;
       object-fit: cover;
     }
   }
@@ -69,7 +69,7 @@ export const Item = styled.div`
       width: 47px;
       height: 47px;
       right: 10px;
-      bottom: -10px;
+      bottom: 0px;
     }
   }
 

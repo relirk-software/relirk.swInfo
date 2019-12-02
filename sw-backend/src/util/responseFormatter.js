@@ -20,16 +20,22 @@ const findObject = (array, endPoint, obj) => {
 
 // Modela o retorno com os atributos customizados do json
 const setNewAttributes = (endPoint, swResultObj, resultData, swAllResults) => {
+  let attr;
+  if (endPoint === "films") {
+    attr = "title";
+  } else {
+    attr = "name";
+  }
+
   const formattedSwObject = swResultObj.map(obj => {
-    if (resultData.names.indexOf(obj.name) >= 0) {
+    if (resultData.names.indexOf(obj[attr]) >= 0) {
       const findObj = findObject(resultData.jsonData, endPoint, obj);
       obj = setCustomAttr(endPoint, obj, findObj);
       return obj;
     } else {
       obj.image = config.placeholder;
       obj.landscape = config.placeholder;
-      obj.description =
-        "Descrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponívelDescrição indisponível";
+      obj.description = "";
       return obj;
     }
   });

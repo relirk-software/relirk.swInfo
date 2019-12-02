@@ -150,6 +150,7 @@ img {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
+    border-bottom: solid 1px #333333;
   }
   .sidenav::after {
     content: '→';

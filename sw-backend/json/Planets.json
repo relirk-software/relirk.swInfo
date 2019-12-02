@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Alderaan",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Falderaan-image.jpg?alt=media&token=31d71c66-3187-4521-ad80-e403925aceda",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Falderaan-landscape.jpeg?alt=media&token=0bb3af40-0a7e-4df3-b85a-cfad7e1e67d3",
+    "description": "From space, the planet of Alderaan, located in the star system of the same name, appeared as a blue-green orb enveloped in a white web of clouds. Its surface had vast bodies of water and was covered in snow-capped mountains, with patches of green grassy hills. Alderaan was known to the galaxy as 'the planet of beauty. Famous natural landmarks of Alderaan included the Cloudshape Falls and the Isatabith rain forest.A variety of grapevines grew on Alderaan, which notably allowed to produce Toniray and emerald wine. The local fauna included the Alderaanian wolf-cat and a species of white-winged bird.The cities on Alderaan were carefully designed to respect the natural beauty of their environment. For example, the palace of the royalfamily and the city around it blended into the local snow-capped peaks. Alderaanian architecture made use of white synthstone, which inspired the architecture of certain mining economies of the Outer Rim Territories, like the floating colony of Cloud City, and the planets Lothaland Garel. Despite the lyrics of the traditional Alderaanian song 'Mirrorbright' referencing a moon, the planet never possessed any natural satellites."
+  },
+  {
+    "name": "Yavin IV",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Fyavin-4-image.png?alt=media&token=6cbf1b8c-2a33-4191-a013-7396a68936c2",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Fyavin-4-landscape.jpg?alt=media&token=77959429-682f-4b70-9338-63e475f2c6dd",
+    "description": "The surface of Yavin 4 was divided into several continental masses, two of which were Starloft and Wetyin. Notable natural formations included Massassi Valley, Skygazer Hill, and the Ferra Groves. The moon's landmasses were covered by dense jungles and rain forests whose flora included purple-barked Massassi trees, grenade fungi, bioluminescent orchids, and climbing ferns. Yavin 4 also had swampy areas."
+  },
+  {
+    "name": "Hoth",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Fhoth-image.png?alt=media&token=ffb20627-f5d6-42d6-af5e-b58657f750d7",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Fhoth-landscape.png?alt=media&token=b54e83c3-fcc7-4d9d-a7c7-13f278b1b0e0",
+    "description": "Hoth was a remote, icy planet that was the sixth planet in the star system of the same name. It notably hosted Echo Base, the temporary headquarters of the Alliance to Restore the Republic, until the Galactic Empire located the Rebels, initiating a major confrontation known as the Battle of Hoth."
+  },
+  {
+    "name": "Dagobah",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Fdagobah-image.jpg?alt=media&token=52a5c018-295b-40a7-ae41-e5b0e9ee8314",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Fdagobah-landscape.jpeg?alt=media&token=b5172723-e102-4f59-a67b-dc5374ebaf88",
+    "description": "Dagobah was an Outer Rim planet in the Dagobah system. A remote world of swamps and forests, it served as a refuge for Jedi Grand Master Yoda during his exile after the events of Order 66 had taken place, but otherwise had no notable intelligent life."
+  },
+  {
+    "name": "Bespin",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Fbespin-image.png?alt=media&token=00eb638b-850d-4177-8922-536f1809cd7c",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Fbespin-landscape.jpg?alt=media&token=c852c1f0-280c-423e-ad09-363a6430af6b",
+    "description": "Bespin was a gas giant in the Bespin system of the Anoat sector on the Ison Corridor in the Greater Javin region of the Outer Rim Territories. It was also a major source of tibanna gas, which was refined for production and transport in numerous mining operations including Cloud City and Tibannopolis. It was home to several million individuals, including Humans, Ugnaughts, and Lutrillians."
+  },
+  {
+    "name": "Endor",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Fendor-image.png?alt=media&token=4e195e9d-0380-446f-878e-35f75ba1cbdf",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Fendor-landscape.png?alt=media&token=1d5a2faf-81fb-48f5-aba9-72ea584938fa",
+    "description": "Endor (also known as the Forest Moon of Endor and the Sanctuary Moon) was a small forested moon orbiting the gas giant planet of Endor and was the farthest moon away from it. An enchanted world, Endor was notable for being the native home of the Ewoks, and being the location of the Battle of Endor, which would result in the downfall of the Empire and the first death of the Emperor Palpatine. Due to its proximity to the Unknown Regions, Endor was a relatively quiet planetoid both prior to and after the battle. Endor was also known for the vast amount of sentient species it supported, from baseline to exotic. This was largely due to the unusually large number of shipwrecks Endor experienced; it has been compared to a 'desert island' in space."
+  },
+  {
+    "name": "Naboo",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Fnaboo-image.png?alt=media&token=69fba1c1-ce97-40cd-a74a-b94a7a03fa27",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Fnaboo-landscape.png?alt=media&token=642ef44b-d54d-437c-8cb4-a0b25a08b57b",
+    "description": "Naboo was a planet that was the sector capital of the Chommell sector in the Mid Rim, near the border with the Outer Rim Territories. The planet had an unusual plasma core, and its surface was a largely unspoiled world with large plains, swamps and seas. The Gungans were an amphibian species native to Naboo. The planet was also home to Human colonists from Grizmallt who called themselves the Naboo. In late galactic history, Naboo was mostly known as the homeworld of notable historical figures who played major roles in the downfall of the Galactic Republic and the rise of the Galactic Empire, namely Padmé Amidala, Emperor Palpatine and Jar Jar Binks."
+  },
+  {
+    "name": "Coruscant",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Fcoruscant-image.jpg?alt=media&token=734269d0-287b-4f0e-9800-c57fd6544121",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Fcoruscant-landscape.jpg?alt=media&token=b8e84f32-3e85-4e6f-8857-502b5a4b5243",
+    "description": "Coruscant, originally called Notron, also known as Imperial Center or the Queen of the Core, was a planet located in the Galactic Core. It was generally agreed that Coruscant was, during most of galactic history, the most politically important world in the galaxy. At various times, it was the capital of the Galactic Republic, the Galactic Empire, the New Republic, the Yuuzhan Vong empire, the Galactic Alliance, very briefly the Fel Empire, Darth Krayt's Galactic Empire, and the Galactic Federation Triumvirate. In controlling Coruscant, these governments controlled most of the galaxy in the process. Over the centuries, Coruscant had developed into an ecumenopolis, with a total of 5,127 levels of city built up from the crust by the time of the Clone Wars. The actual planet-wide metropolis of Coruscant was called Galactic City. Under the Galactic Republic, the names Republic City or the City of Spires were also used to reference the city. It was also called Imperial City under the Galactic Empire, and New Republic City under the New Republic. However, in practice, Galactic City and its other names were sometimes applied to the Senate District, the central government center and de facto capital of Coruscant. Under the Yuuzhan Vong, the city and planet were both referred to as Yuuzhan'tar."
+  },
+  {
+    "name": "Kamino",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Fkamino-image.jpg?alt=media&token=03c71e05-771f-4fd8-9033-7e7f36423cc9",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Fkamino-landscape.png?alt=media&token=13eba5c0-6638-4e79-a2a1-075e540923c7",
+    "description": "Kamino, called Big Stormy by some clone troopers, also known as the Planet of Storms,[10] was a water world where the Clone Army of the Galactic Republic was created, as well as the Kamino Home Fleet. It was inhabited by a race of tall, elegant beings called the Kaminoans, who kept to themselves and were known for their cloning technology. Kamino was located just south of the Rishi Maze, and was governed by the Ruling Council, headed by the Prime Minister."
+  },
+  {
+    "name": "Geonosis",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FImages%2Fgeonosis-image.png?alt=media&token=f6848081-649b-4874-983f-63da51912d31",
+    "landscape": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Planets%2FLandscapes%2Fgeonosis-landscape.jpg?alt=media&token=a90bbb52-ed58-400d-8b22-774debd520bf",
+    "description": "Geonosis, called Geonosia by some natives, was a ringed, rocky planet in the Arkanis sector of the Outer Rim Territories. The home planet of the insectoid Geonosians, it was known for its droid factories and violent gladiatorial games. The desert world was the Confederacy's first capital, hosting its major droid foundries. It was the site of the Battle of Geonosis, the opening conflict of the Clone Wars, in 22 BBY."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Hutt",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Fhutt-image.png?alt=media&token=28814e8f-ae96-475b-9e9a-b9ee1fd30feb",
+    "description": "The Hutts were a sentient species of large gastropods with short arms, wide cavernous mouths and huge eyes, who controlled a large space empire in Hutt Space. The species was said to originally hail from the planet Varl, but no planet by that name appeared on any Imperial star charts. Their adopted homeworld was Nal Hutta. Members of this species were often stereotyped as crime lords."
+  },
+  {
+    "name": "Yoda's species",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Fyoda-image.png?alt=media&token=5d368193-8b42-49d1-a836-07061fe37160",
+    "description": "The species to which the legendary Jedi Master Yoda belonged was ancient and shrouded in mystery. The species had two sexes: male and female. Members of that species were small in size, with green skin and long pointed ears. Their three-fingered hands ended in claws. Their ears were expressive, curling and unfurling in accordance with their emotions. The species' life expectancy spanned several centuries. Members of this species were rarely seen anywhere in the galaxy."
+  },
+  {
+    "name": "Trandoshan",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Ftrandoshan-image.png?alt=media&token=a522f440-3218-43af-9b56-286fa509d08e",
+    "description": "Trandoshans, also called T'doshok, were large, bipedal reptilian sentient humanoids from the planet Trandosha, and were renowned as great hunters. Trandoshans relished the thrill of a hunt, and were known to embark on a hunting related rite of passage. Garnac was a Trandoshan hunter who operated a game preserve on the moon Wasskah, and oversaw his son's fatally failed rite of passage, which was done in the form of hunting a Jedi Padawan. One of the most feared bounty hunters in the galaxy was a Trandoshan known as Bossk, who pulled jobs for various organizations, including the Galactic Empire."
+  },
+  {
+    "name": "Mon Calamari",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Fmon-calamari-image.png?alt=media&token=94062724-394c-4915-980c-910c9c905967",
+    "description": "The Mon Calamari were a humanoid, aquatic species native to the planet of Mon Cala. They shared their home planet with the Quarren. The Mon Calamari (also known as Calamari, Calamarians, Mon Cal, Mon Calamarians, or rarely Mon Cala) were one of the sentient species indigenous to the world of Dac."
+  },
+  {
+    "name": "Ewok",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Fewoks-image.png?alt=media&token=61375dba-1f34-4fd6-900a-9ebb1d4d2d08",
+    "description": "Ewoks were a diminutive species of furry bipeds native to the forest moon of Endor. They were most notable for helping the Rebel Alliance defeat the forces of the Galactic Empire at the Battle of Endor, allowing the shield generator there to be destroyed, and in turn, the Death Star II. Ewoks were individuals that stood about one meter tall. They used spears, slings, and knives as weapons; they also used hang gliders as vehicles. Although skilled in forest survival and the construction of primitive technology, the Ewoks had yet to progress past stone-level technology when discovered by the Empire. They were quick learners, however, when exposed to advanced technology with simple mechanical processes and concepts."
+  },
+  {
+    "name": "Sullustan",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Fsullustan-image.png?alt=media&token=4219dbd1-0856-4587-a64a-9a128ca18f78",
+    "description": "Sullustans were a species of humanoids that hailed from the planet of Sullust, and were experts at manufacturing, scientific and technological development, and economics, having founded the prosperous SoroSuub Corporation."
+  },
+  {
+    "name": "Neimodian",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Fneimodian-image.png?alt=media&token=6481985d-b9bd-4f7e-9e3e-915d5ecfb8a9",
+    "description": "Neimoidians were a humanoid species native to the planet of Neimoidia, while also settling wealthy purse-worlds like Cato Neimoidia. They had smooth noseless faces, mottled green-gray skin, and large red-orange eyes. In the waning years of the Galactic Republic, they ran the Trade Federation, a vast consortium of business interests. As such, they ended up joining the Confederacy of Independent Systems and helped start the Clone Wars."
+  },
+  {
+    "name": "Gungan",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Fgungan-image.png?alt=media&token=7052134b-9413-4ca9-8a57-a9da31295150",
+    "description": "Gungans were an amphibious sentient species and the native inhabitants of the planet Naboo. The various different Gungan races could live on both water and land, but often made their home in underwater cities such as Otoh Gunga. Physically, Gungans were tall humanoids with a flexible structure, strong leg muscles, strong bills, muscular tongues, and many other traits designed for living in the waters of Naboo. Gungans were also know to rarely leave Naboo. The Gungans had a tense and uneasy relationship with the predominantly human Naboo people until the Trade Federation invasion. As a result of the invasion, the Gungans joined forces with the Naboo to expel the Trade Federation from their homeworld. Following the invasion, Jar Jar Binks would become the Junior Representative of the Gungan people in the Galactic Senate, serving alongside Senator Padmé Amidala of the Naboo."
+  },
+  {
+    "name": "Toydarian",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Ftoydarian-image.jpg?alt=media&token=efc4e512-e7ee-47cf-98af-acf1138bbc86",
+    "description": "Toydarians were a sentient, winged species from the planet Toydaria. In addition to their ability to fly, Toydarians were physically defined by their long snouts and webbed feet, and could resist mental manipulation from the Force. During the Clone Wars, the Toydarians were ruled by King Katuunko. The Toydarians were, for a time, neutral during the Clone Wars, before eventually siding with the Galactic Republic."
+  },
+  {
+    "name": "Dug",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swproject-c300c.appspot.com/o/Species%2FImages%2Fdug-image.png?alt=media&token=473c5e70-2c6c-466d-98ad-1cd43d9c9ad4",
+    "description": "Dugs were sentient aliens from the planet of Malastare. Dugs were easily identified by their long snouts and the fact that they walk using their arms. On Malastare, the Dugs were ruled by a Dug Council, which during the Clone Wars was headed by Nakha Urus, who held the title of Doge. Some Dugs were known to travel off-world in order to seek lives off of Malastare. The pilot Sebulba became a well known and feared Podracer pilot, while a Dug named Preigo headed a popular circus. Dugs could also be found on the worlds of Coruscant and Tatooine."
+  }
+]
