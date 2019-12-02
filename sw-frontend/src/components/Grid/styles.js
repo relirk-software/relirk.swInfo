@@ -22,10 +22,16 @@ export const Item = styled.div`
   cursor: pointer;
   width: 155px;
   max-width: 170px;
-  min-height: 250px;
+  min-height: 208px;
   margin: 5px;
   border-radius: 5px;
   background: #282727;
+
+  &:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 6px 2px;
+    color: #e15021;
+  }
 
   .img-container {
     border-top-left-radius: 5px;
@@ -37,7 +43,8 @@ export const Item = styled.div`
       border-top-right-radius: 5px;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
-      height: 13em;
+      border-bottom: solid 1px #e15021;
+      height: 10em;
       object-fit: cover;
     }
   }
@@ -50,10 +57,6 @@ export const Item = styled.div`
       font-size: 1.1em;
       margin: 10px;
       color: white;
-
-      &:hover {
-        color: #9e4f60;
-      }
     }
 
     span {

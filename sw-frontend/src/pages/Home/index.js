@@ -5,6 +5,8 @@ import api from "../../services/api";
 import Header from "../../components/Header";
 import Sidenav from "../../components/Sidenav";
 import Grid from "../../components/Grid";
+import News from "../../components/News";
+import Footer from "../../components/Footer";
 
 export default class Home extends Component {
   state = {
@@ -43,6 +45,8 @@ export default class Home extends Component {
           category={localStorage.getItem("selectedCategoryName")}
           items={localStorage.getItem("selectedCategory")}
         />
+        <News />
+        <Footer />
       </div>
     );
   }

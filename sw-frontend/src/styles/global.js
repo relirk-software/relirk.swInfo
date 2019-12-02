@@ -103,61 +103,6 @@ img {
   }
 }
 
-/*HEADER*/
-
-.header {
-  grid-area: header;
-  background-position: center;
-  background-image: url(https://static-mh.content.disney.io/starwars/assets/navigation/navigation_stars-c6452e016c73.jpg);
-  background-size: cover;
-  padding: 30px;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-}
-
-.logo {
-  max-width: 200px;
-}
-
-.header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.header nav a {
-  display: block;
-  padding: 10px;
-  color: #999;
-  font-size: 1.125em;
-  background: transparent;
-  border-radius: 5px;
-  transition: 0.1s;
-}
-
-.header nav a:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
-.header li + li {
-  margin-left: 30px;
-}
-
-@media (max-width: 760px) {
-  .header {
-    grid-template-columns: auto;
-  }
-  .logo {
-    margin-bottom: 20px;
-  }
-  .header nav a {
-    font-size: 1em;
-  }
-  .header li + li {
-    margin-left: 10px;
-  }
-}
-
 /*SIDENAV*/
 
 .sidenav {
@@ -368,19 +313,30 @@ p {
 
 .anuncios {
   grid-area: anuncios;
-  background: #fafbfc;
+  border-left: solid 1px #333333;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-image: url(https://static-mh.content.disney.io/starwars/assets/background/bg_starsR-655c85e404d4.jpg);
   display: grid;
   align-content: start;
   padding: 30px;
   grid-gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  @media (max-width: 1200px) {
+    border-left: none;
+  }
 }
 
 /*FOOTER*/
 
 .footer {
   grid-area: footer;
-  background: linear-gradient(135deg, #8844ee, #B07DFB);
+  background-position: center;
+  background-image: url(https://static-mh.content.disney.io/starwars/assets/navigation/navigation_stars-c6452e016c73.jpg);
+  background-size: cover;
+  border-top: solid 1px #333333;
 }
 
 .footer p {
