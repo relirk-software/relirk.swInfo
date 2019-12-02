@@ -6,9 +6,11 @@
   "author": "Francisco José Olvera Junior <olverajunior2014@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^5.0.0"
+    "concurrently": "^5.0.0",
+    "shelljs": "^0.8.3"
   },
   "scripts": {
+    "dev": "node prepare.js",
     "start": "concurrently --kill-others-on-fail \"cd sw-backend; yarn dev\" \"cd sw-frontend; yarn start\""
   }
 }
