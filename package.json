@@ -1,0 +1,14 @@
+{
+  "name": "relirk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:relirk-software/relirk.swInfo.git",
+  "author": "Francisco José Olvera Junior <olverajunior2014@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.0.0"
+  },
+  "scripts": {
+    "start": "concurrently --kill-others-on-fail \"cd sw-backend; yarn dev\" \"cd sw-frontend; yarn start\""
+  }
+}
