@@ -29,6 +29,7 @@ export default class Home extends Component {
       "films"
     ];
 
+    localStorage.clear();
     for (let index = 0; index < categories.length; index++) {
       const category = categories[index];
       const result = await api.getSwData("", category);

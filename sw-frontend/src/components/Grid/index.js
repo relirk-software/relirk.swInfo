@@ -15,10 +15,11 @@ import {
 } from "./styles";
 import NextPrev from "../NextPrev";
 
+let items = [];
 export default function Grid(props) {
   let elements;
   if (props.items && props.category) {
-    const items = JSON.parse(props.items);
+    items = JSON.parse(props.items);
 
     if (items[props.category].length > 0) {
       elements = items[props.category].map((item, index) => (
@@ -55,7 +56,8 @@ export default function Grid(props) {
       <Content>
         <>{elements}</>
       </Content>
-      <NextPrev />
+      {items.length}
+      {items.length > 0 && <NextPrev />}
     </Container>
   );
 }
