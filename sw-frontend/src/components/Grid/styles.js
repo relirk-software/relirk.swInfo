@@ -66,6 +66,7 @@ export const ItemTitle = styled.p`
 
 export const ItemDescription = styled.p`
   font-size: 1em;
+  text-align: justify;
   margin: 10px;
   color: white;
 
@@ -96,6 +97,10 @@ export const TriangleCustomImage = styled.div`
   bottom: -0.1em;
   right: 0em;
   border-bottom-right-radius: 6px;
+
+  @media (max-width: 760px) {
+    display: none;
+  }
 `;
 
 export const TriangleContainer = styled.div`
