@@ -1,6 +1,19 @@
 import React from "react";
 
-import { Container, Content, Item } from "./styles";
+import {
+  Container,
+  Content,
+  Item,
+  ImageContainer,
+  ItemDetails,
+  ItemTitle,
+  ItemDescription,
+  // ItemDetailImage,
+  TriangleCustomImage,
+  TriangleContainer,
+  CategoryLabel
+} from "./styles";
+import NextPrev from "../NextPrev";
 
 export default function Grid(props) {
   let elements;
@@ -10,14 +23,28 @@ export default function Grid(props) {
     if (items[props.category].length > 0) {
       elements = items[props.category].map((item, index) => (
         <Item key={index}>
-          <div className="img-container">
+          <ImageContainer color={localStorage.getItem("currentColor")}>
             <img src={item.image} alt={item.title ? item.title : item.name} />
-          </div>
+          </ImageContainer>
 
-          <div className="description">
-            <p>{item.title ? item.title : item.name}</p>
-            <span></span>
-          </div>
+          <ItemDetails>
+            <ItemTitle color={localStorage.getItem("currentColor")}>
+              {item.title ? item.title.toUpperCase() : item.name.toUpperCase()}
+            </ItemTitle>
+            <ItemDescription>
+              {item.description ? item.description : item.opening_crawl}
+            </ItemDescription>
+            <CategoryLabel color={localStorage.getItem("currentColor")}>
+              {`Category: ${localStorage.getItem("selectedCategoryName")}`}
+            </CategoryLabel>
+
+            <TriangleCustomImage>
+              <TriangleContainer>
+                <img alt="" src={item.image} />
+              </TriangleContainer>
+            </TriangleCustomImage>
+          </ItemDetails>
+          {/* <ItemDetailImage /> */}
         </Item>
       ));
     }
@@ -28,6 +55,7 @@ export default function Grid(props) {
       <Content>
         <>{elements}</>
       </Content>
+      <NextPrev />
     </Container>
   );
 }

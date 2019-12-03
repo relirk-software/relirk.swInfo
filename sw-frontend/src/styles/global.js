@@ -5,6 +5,11 @@ import "react-toastify/dist/ReactToastify.css";
 
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+  /* @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap'); */
+
+  @font-face{font-family:'Matterhorn';src:url("https://static-mh.content.disney.io/matterhorn/assets/m4-7e766c2825c7.eot#") format("eot"),url("https://static-mh.content.disney.io/matterhorn/assets/m4-b366701d6945.woff") format("woff"),url("https://static-mh.content.disney.io/matterhorn/assets/m4-ac909dff444f.ttf") format("truetype"),url("https://static-mh.content.disney.io/matterhorn/assets/m4-3d636e3b4270.svg#Matterhorn") format("svg");font-weight:400;font-style:normal}
+
+
 
   * {
     margin: 0;
@@ -28,6 +33,8 @@ export default createGlobalStyle`
 
   body, input, button {
     font: 14px 'Roboto', sans-serif;
+    /* font-family: 'Space Mono', monospace; */
+    -webkit-font-smoothing: antialiased;
   }
 
   a {
@@ -47,10 +54,6 @@ export default createGlobalStyle`
   body, p, h1, ul, li, blockquote {
   padding: 0px;
   margin: 0px
-}
-
-body {
-  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 li {

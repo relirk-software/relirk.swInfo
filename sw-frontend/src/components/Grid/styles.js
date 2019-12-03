@@ -11,69 +11,110 @@ export const Content = styled.div`
   flex-wrap: wrap;
   margin: 0 auto;
   width: 90%;
-
-  @media (max-width: 760px) {
-    margin: 0;
-    width: auto;
-  }
 `;
 
 export const Item = styled.div`
+  display: flex;
+  position: relative;
   cursor: pointer;
-  width: 210px;
-  max-width: 210px;
-  min-height: 208px;
+  width: 100%;
   margin: 5px;
   border-radius: 5px;
   background: #282727;
+`;
+
+export const ImageContainer = styled.div`
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 6px;
+  background: black;
+  width: 50%;
+
+  img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-right: solid 2px ${props => props.color};
+    height: 20em;
+    object-fit: cover;
+  }
+`;
+
+export const ItemDetails = styled.div`
+  position: relative;
+  height: 20em;
+  width: 50%;
+  background-image: url(https://static-mh.content.disney.io/starwars/assets/shared/bg_hash_top-dca2c5ab1b2e.png);
+  background-size: 7px;
+  background-repeat: repeat-x;
+  background-position: top left;
+`;
+
+export const ItemTitle = styled.p`
+  font-size: 2em;
+  margin: 10px;
+  color: white;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 
   &:hover {
-    border: 1px solid #fff;
-    box-shadow: 0 0 6px 2px;
-    color: #e15021;
+    color: ${props => props.color};
   }
+`;
 
-  .img-container {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    background: white;
+export const ItemDescription = styled.p`
+  font-size: 1em;
+  margin: 10px;
+  color: white;
 
-    img {
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0;
-      border-bottom: solid 1px #e15021;
-      height: 20em;
-      object-fit: cover;
-    }
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+`;
+
+export const ItemDetailImage = styled.span`
+  z-index: 1;
+  background-image: url(https://static-mh.content.disney.io/starwars/assets/shared/decal-a67af2e7d567.png);
+  background-size: 300% 200%;
+  background-position: -100% 0;
+  position: absolute;
+  opacity: 0.06;
+  width: 47px;
+  height: 47px;
+  right: 10px;
+  bottom: 0px;
+`;
+
+export const TriangleCustomImage = styled.div`
+  overflow: hidden;
+  position: absolute;
+  width: 7em;
+  height: 5em;
+  bottom: -0.1em;
+  right: 0em;
+  border-bottom-right-radius: 6px;
+`;
+
+export const TriangleContainer = styled.div`
+  overflow: hidden;
+  position: absolute;
+  transform: skewX(-55.98deg);
+  right: -0.25em;
+  bottom: 0.1em;
+  transform-origin: 0 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    transform: skewX(55.98deg);
+    transform-origin: inherit;
   }
+`;
 
-  .description {
-    position: relative;
-    height: 3.4em;
-
-    p {
-      font-size: 1.1em;
-      margin: 10px;
-      color: white;
-    }
-
-    span {
-      z-index: 1;
-      background-image: url(https://static-mh.content.disney.io/starwars/assets/shared/decal-a67af2e7d567.png);
-      background-size: 300% 200%;
-      background-position: -100% 0;
-      position: absolute;
-      opacity: 0.06;
-      width: 47px;
-      height: 47px;
-      right: 10px;
-      bottom: 0px;
-    }
-  }
-
-  @media (max-width: 760px) {
-    max-width: 150px;
-  }
+export const CategoryLabel = styled.p`
+  margin: 10px;
+  color: ${props => props.color};
 `;

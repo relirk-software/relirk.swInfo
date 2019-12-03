@@ -20,15 +20,15 @@ export default function Header() {
       <Navigator>
         <List>
           <ListItem>
-            <LinkButton href="#">ABOUT</LinkButton>
+            <LinkButton href="#">About</LinkButton>
           </ListItem>
           <ListItem>
             <LinkButton href="https://swapi.co/" target="_blank">
-              SW API
+              SW api
             </LinkButton>
           </ListItem>
           <ListItem>
-            <LinkButton href="#">CONTACT</LinkButton>
+            <LinkButton href="#">Contact</LinkButton>
           </ListItem>
         </List>
       </Navigator>
