@@ -10,5 +10,8 @@ Tecnologias utilizadas:
 
 ## Como executar
 - Faça o clone/download deste repositório;
-- Garanta que sua api no diretório de backend esteja rodando;
-- Execute `yarn install` e `yarn start`.
+- Garanta que sua api no diretório de backend esteja rodando na porta 5000;
+- Execute `yarn install` e `yarn start`. A interface fica localizada em `http://localhost:3000`.
+
+## Recursos
+Selecione os items a esquerda e faça buscas pelas categorias.
