@@ -2,7 +2,8 @@
 Este repositório contém um projeto de buscas dentro da api do Star Wars
 - Em conjunto com a api a interface é completamente funcional.
 
-![Screenshot 1](sw.png)
+![Screenshot 1](swmobile.png)
+![Screenshot 2](sw.png)
 
 Tecnologias utilizadas:
 * [ReactJS](https://reactjs.org/)
